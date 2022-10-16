@@ -1,0 +1,4 @@
+{
+  "Fragment Shader": "SkyboxShader.frag",
+  "Vertex Shader": "SkyboxShader.vert"
+}

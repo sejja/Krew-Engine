@@ -1,0 +1,356 @@
+{
+    "0": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mEnemyCount": 0,
+                "mHasSpawned": false,
+                "mSpawnCount": 5,
+                "mTimeToSpawn": 6.5
+            }
+        },
+        "Name": "Zombie",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 13.89344596862793,
+                "y": 14.643351554870605,
+                "z": 1.1526660919189453
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 4.0,
+                "y": 4.0,
+                "z": 4.0
+            }
+        }
+    },
+    "1": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "CubeMapPath": "EngineContent/Texture/SkyBox/BlackGrid/",
+                "Name": "Skybox settings",
+                "Visible": true
+            }
+        },
+        "Name": "Skybox",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "2": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "ColliderGroup": 1,
+                "ColliderShape": 4,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 2,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "1": {
+                "DiffusePath": "EngineContent/Models\\Extra\\BlueGemTex.png",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            }
+        },
+        "Name": "Gem1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 6.5917158126831055,
+                "y": -0.46867871284484863,
+                "z": 1.0335253477096558
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "3": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Aspect": 1.7268385887145996,
+                "Far": 1000.0,
+                "FirstMouse": true,
+                "Fov": 80.0,
+                "MouseX": 1808.0,
+                "MouseY": 1047.0,
+                "Name": "Camera",
+                "Near": 0.10000000149011612,
+                "Pitch": -45.0,
+                "Position": {
+                    "x": 197.98272705078125,
+                    "y": 7.0,
+                    "z": 4.7042622566223145
+                },
+                "Sensitivity": 3.0,
+                "UpVec": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "ViewVec": {
+                    "x": -3.090862321641907e-08,
+                    "y": -0.7071068286895752,
+                    "z": -0.7071068286895752
+                },
+                "Yaw": -90.0
+            },
+            "1": {
+                "Name": "Gameplay ::PlayerCam",
+                "mCamDist": 4.0,
+                "mCamHeight": 8.0,
+                "mMaxCamDist": 10.0,
+                "mPlayer1": true,
+                "mPlayer2": true
+            }
+        },
+        "Name": "Camera",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 197.98272705078125,
+                "y": 7.0,
+                "z": 4.7042622566223145
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -45.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "4": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 64,
+                "mBlendingType": 2,
+                "mEmit": true,
+                "mMaxParticles": 1000,
+                "mParticleColor": [
+                    0.5609999895095825,
+                    0.08399999886751175,
+                    0.7409999966621399
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.5,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 2.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "ZombieParticleEmitter",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 100.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "5": {
+        "Childs": {
+            "0": {
+                "Childs": null,
+                "Components": null,
+                "Name": "Melee",
+                "Tags": null,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": -0.25,
+                        "z": 1.1000003814697266
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 90.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.5,
+                        "z": 2.0
+                    }
+                }
+            }
+        },
+        "Components": {
+            "0": {
+                "ColliderGroup": 1,
+                "ColliderShape": 4,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 2,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "1": {
+                "AddGravity": false,
+                "InverseMass": 1.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": -3.068637645548678e-34
+            },
+            "2": {
+                "Name": "Gameplay::Player",
+                "current_weapon_number": 0,
+                "mBaseSpeed": 7,
+                "mControllerNumber": 0,
+                "mDashSpeed": 21.0,
+                "mDebugMode": true,
+                "mIsPlayer2": false,
+                "mMaxHP": 10,
+                "mRotSpeed": 2.0,
+                "mScore": 0
+            },
+            "3": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 1000,
+                "mParticleColor": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "mParticleGenerationRate": 10,
+                "mParticleSize": 0.10000000149011612,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 1.0,
+                "mUsingThreadPools": false
+            },
+            "4": {
+                "Enable Doppler Effect": true,
+                "Name": "3D Sound Listener"
+            },
+            "5": {
+                "DiffusePath": "EngineContent/Models\\Players\\P2Texture.jpg",
+                "ModelName": "Player/Player",
+                "ModelPath": "EngineContent/Models/Players/Player1.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            }
+        },
+        "Name": "Player",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -12.666631698608398,
+                "y": 3.706629753112793,
+                "z": -1.0000019073486328
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": -0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "Childs": null,
+    "Components": {
+        "0": {
+            "Name": "Gameplay ::EnemySpawner",
+            "mID": -842150451,
+            "mIsLinked": false,
+            "mRange": 10.0,
+            "mSpawnCount": 5,
+            "mTimeFirstSpawn": 0.5,
+            "mTimetoSpawn": 1.0,
+            "mWaves": 1
+        },
+        "1": {
+            "Name": "ParticleEmitter",
+            "mActiveParticles": 0,
+            "mBlendingType": 2,
+            "mEmit": false,
+            "mMaxParticles": 100,
+            "mParticleColor": [
+                0.07100000232458115,
+                0.03400000184774399,
+                0.09799999743700027
+            ],
+            "mParticleGenerationRate": 1,
+            "mParticleSize": 0.4000000059604645,
+            "mRange": 0.10000000149011612,
+            "mSpeedDirection": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "mSpeedIntensity": 5.0,
+            "mUsingThreadPools": false
+        }
+    },
+    "Name": "Spawner_",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    }
+}

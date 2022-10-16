@@ -1,0 +1,177 @@
+{
+    "Childs": {
+        "0": {
+            "Childs": null,
+            "Components": {
+                "0": {
+                    "ColliderGroup": 1,
+                    "ColliderShape": 4,
+                    "Name": "Collider",
+                    "SelectedGroup": 0,
+                    "SelectedShape": 2,
+                    "Transform": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 70.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            },
+            "Name": "Ranged_Collider",
+            "Tags": null,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 2.0,
+                    "z": 1.0
+                }
+            }
+        }
+    },
+    "Components": {
+        "0": {
+            "ColliderGroup": 1,
+            "ColliderShape": 2,
+            "Name": "Collider",
+            "SelectedGroup": 0,
+            "SelectedShape": 1,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.800000011920929,
+                    "y": 1.0,
+                    "z": 0.800000011920929
+                }
+            }
+        },
+        "1": {
+            "AddGravity": true,
+            "InverseMass": 1.0,
+            "Name": "RigidBody",
+            "Velx": 0.0,
+            "Vely": 0.0,
+            "Velz": 0.0
+        },
+        "2": {
+            "DiffusePath": "EngineContent/Models\\Enemies\\ZombieTexture.jpg",
+            "Name": "3D Model",
+            "Visible": true,
+            "bloomIntensity": 0.0,
+            "hasBloom": false,
+            "hasShadow": false,
+            "mBlendingType": 0,
+            "mSamplingType": 0
+        },
+        "3": {
+            "DiffusePath": "EngineContent/Models\\Enemies\\ZombieTexture.jpg",
+            "HasShadow": true,
+            "ModelPath": "EngineContent/Models\\Enemies\\Zombie.obj",
+            "Name": "ParticleEmitter",
+            "Visible": true,
+            "mActiveParticles": 660,
+            "mBlendingType": 2,
+            "mEmit": true,
+            "mMaxParticles": 1000,
+            "mParticleColor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mParticleGenerationRate": 10,
+            "mParticleSize": 1.0,
+            "mRange": 0.10000000149011612,
+            "mSamplingType": 0,
+            "mSpeedDirection": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mSpeedIntensity": 1.0,
+            "mUsingThreadPools": false
+        },
+        "4": {
+            "File": "EngineContent/Audio/Effects/EnemyDeath.wav",
+            "Loop": false,
+            "Name": "Sound Emitter",
+            "Pitch": 1.0,
+            "Play On Spawn": false,
+            "Volume": 0.800000011920929,
+            "mActiveParticles": 660,
+            "mBlendingType": 2,
+            "mEmit": true,
+            "mMaxParticles": 1000,
+            "mParticleColor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mParticleGenerationRate": 10,
+            "mParticleSize": 1.0,
+            "mRange": 0.10000000149011612,
+            "mSpeedDirection": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mSpeedIntensity": 1.0,
+            "mUsingThreadPools": false
+        },
+        "5": {
+            "File": "EngineContent/Audio/Effects/EnemyDeath.wav",
+            "Loop": false,
+            "Name": "Sound Emitter",
+            "Pitch": 1.0,
+            "Play On Spawn": false,
+            "Volume": 0.800000011920929
+        }
+    },
+    "Name": "Enemy",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": -2.2647595405578613,
+            "y": 5.00769567489624,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+        }
+    }
+}

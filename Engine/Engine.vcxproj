@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug - Game|x64">
+      <Configuration>Debug - Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - Game|x64">
+      <Configuration>Release - Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{015503ca-0086-4f0c-8a0e-61815cfedfb1}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.28.29333</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Game|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.28.29333</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.28.29333</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Game|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.28.29333</VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion />
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release - Ga,e|Win32'">
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <VCToolsVersion>14.28.29333</VCToolsVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(Platform)\$(Configuration)\$(ProjectName)/</IntDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
+    <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(Platform)\$(Configuration)\$(ProjectName)/</IntDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
+    <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(Platform)\$(Configuration)\$(ProjectName)/</IntDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
+    <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(Platform)\$(Configuration)\$(ProjectName)/</IntDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
+    <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_EDITOR_;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_ENGINE_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shared.h</PrecompiledHeaderFile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalOptions>/Zm300 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)ThirdParty/Assimp/include;$(ProjectDir)ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TranslateIncludes>true</TranslateIncludes>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <GuardEHContMetadata>false</GuardEHContMetadata>
+      <GuardSignedReturns>
+      </GuardSignedReturns>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod64_vc.lib;opengl32.lib;Xinput.lib;assimp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Engine\ThirdParty\FMOD;$(SolutionDir)Engine\ThirdParty\Assimp;$(SolutionDir)Engine\ThirdParty\freetype;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_ENGINE_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shared.h</PrecompiledHeaderFile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalOptions>/Zm300 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)ThirdParty/Assimp/include;$(ProjectDir)ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <GuardEHContMetadata>false</GuardEHContMetadata>
+      <GuardSignedReturns>
+      </GuardSignedReturns>
+      <TranslateIncludes>true</TranslateIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod64_vc.lib;opengl32.lib;Xinput.lib;assimp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Engine\ThirdParty\FMOD;$(SolutionDir)Engine\ThirdParty\Assimp;$(SolutionDir)Engine\ThirdParty\freetype;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)*.dll" "$(SolutionDir)Build\$(Platform)\$(Configuration)\" /Y /D
+
+xcopy "$(ProjectDir)imgui.ini" "$(SolutionDir)Build\$(Platform)\$(Configuration)\" /Y /D
+
+
+xcopy "$(ProjectDir)EngineContent\" "$(SolutionDir)Build\$(Platform)\$(Configuration)\EngineContent\" /Y /D /E /S</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_EDITOR_;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)ThirdParty/Assimp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shared.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm300 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Engine\ThirdParty\FMOD;$(SolutionDir)Engine\ThirdParty\Assimp;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;opengl32.lib;Xinput.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_EDITOR_;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)ThirdParty/Assimp/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shared.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm300 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Engine\ThirdParty\FMOD;$(SolutionDir)Engine\ThirdParty\Assimp;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;opengl32.lib;Xinput.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_EDITOR_;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_ENGINE_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)ThirdParty/Assimp/include;$(ProjectDir)ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shared.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm300 %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <GuardEHContMetadata>false</GuardEHContMetadata>
+      <GuardSignedReturns>
+      </GuardSignedReturns>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Engine\ThirdParty\FMOD;$(SolutionDir)Engine\ThirdParty\Assimp;$(SolutionDir)Engine\ThirdParty\freetype;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;opengl32.lib;Xinput.lib;assimp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_ENGINE_;_GAME_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)ThirdParty/Assimp/include;$(ProjectDir)ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shared.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm300 %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <GuardEHContMetadata>false</GuardEHContMetadata>
+      <GuardSignedReturns>
+      </GuardSignedReturns>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Engine\ThirdParty\FMOD;$(SolutionDir)Engine\ThirdParty\Assimp;$(SolutionDir)Engine\ThirdParty\freetype;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;opengl32.lib;Xinput.lib;assimp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Runtime\AI\Blackboard.cpp" />
+    <ClCompile Include="Developer\Serialization\CommonSerialization.cpp" />
+    <ClCompile Include="Developer\EngineBuild\DLLBuilder.cpp" />
+    <ClCompile Include="Editor\GUI\CommonOnEditor.cpp" />
+    <ClCompile Include="Editor\GUI\PrefabEditor.cpp" />
+    <ClCompile Include="Runtime\AI\Nodes\ChangeScene.cpp" />
+    <ClCompile Include="Developer\Console\Console.cpp" />
+    <ClCompile Include="Developer\Content\Private\Importers\CommonImporters.cpp" />
+    <ClCompile Include="Developer\Content\Public\SharedResources.cpp" />
+    <ClCompile Include="Developer\Debug\Debug.cpp" />
+    <ClCompile Include="Developer\Factory\Factory.cpp" />
+    <ClCompile Include="Developer\Serialization\ColorSerializer.cpp" />
+    <ClCompile Include="Developer\Serialization\MathSerializer.cpp" />
+    <ClCompile Include="Developer\Serialization\Serializable.cpp" />
+    <ClCompile Include="Editor\Archetypes\DrawingFunctions.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\Archetypes\FileExplorer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\Archetypes\Gizmo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\Archetypes\IEditorState.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\Archetypes\IWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\ConsoleGUI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\ContentBrowser.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\FPSProfiler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\ImporterWindowModal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\MemoryTrackerWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\PaletteWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\PropertiesGUI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\ResourceWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\GUI\Viewport.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Editor\States\MainState.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Runtime\AI\Nodes\RepeatNTimes.cpp" />
+    <ClCompile Include="Runtime\Audio\Audio.cpp" />
+    <ClCompile Include="Runtime\Audio\Components\AudioComponent.cpp" />
+    <ClCompile Include="Runtime\Audio\Components\SoundEmitter3D.cpp" />
+    <ClCompile Include="Runtime\Audio\Components\SoundListener3D.cpp" />
+    <ClCompile Include="Runtime\Audio\MasterAudio.cpp" />
+    <ClCompile Include="Runtime\Composition\Component.cpp" />
+    <ClCompile Include="Runtime\Composition\GameObject.cpp" />
+    <ClCompile Include="Runtime\Composition\IBase.cpp" />
+    <ClCompile Include="Runtime\Composition\Scene.cpp" />
+    <ClCompile Include="Runtime\Composition\World.cpp" />
+    <ClCompile Include="Runtime\AI\Nodes\Composite.cpp" />
+    <ClCompile Include="Runtime\AI\Nodes\Decorator.cpp" />
+    <ClCompile Include="Runtime\AI\Nodes\Leaf.cpp" />
+    <ClCompile Include="Runtime\Core\Events\Dispatcher.cpp" />
+    <ClCompile Include="Runtime\Core\Events\Event.cpp" />
+    <ClCompile Include="Runtime\Core\Events\type_info.cpp" />
+    <ClCompile Include="Runtime\Core\FrameController\FrameController.cpp" />
+    <ClCompile Include="Runtime\Core\Input\InputManager.cpp" />
+    <ClCompile Include="Runtime\Core\Math.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\Conversions.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\Geometry.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\Interpolation.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\LookupTables\LookupTable.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\Spline.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\Transform.cpp" />
+    <ClCompile Include="Runtime\Core\ObjectManager\ObjectManager.cpp" />
+    <ClCompile Include="Runtime\Core\Random\Random.cpp" />
+    <ClCompile Include="Runtime\Core\States\StateManager.cpp" />
+    <ClCompile Include="Runtime\Core\Thread\ThreadPool.cpp" />
+    <ClCompile Include="Runtime\Core\UI\UI.cpp" />
+    <ClCompile Include="Runtime\Core\UI\Widget.cpp" />
+    <ClCompile Include="Runtime\Core\Windows\FileSystem\FilePath.cpp" />
+    <ClCompile Include="Runtime\Core\Windows\Launch.cpp" />
+    <ClCompile Include="Runtime\Core\Mathematics\Vector.cpp" />
+    <ClCompile Include="Runtime\Core\Windows\Tests\Tests.cpp" />
+    <ClCompile Include="Runtime\Core\Windows\Window\Window.cpp" />
+    <ClCompile Include="Runtime\Graphics\Animation\StateMachines.cpp" />
+    <ClCompile Include="Runtime\Graphics\Components\Fog.cpp" />
+    <ClCompile Include="Runtime\Graphics\Components\MeshRenderer.cpp" />
+    <ClCompile Include="Runtime\Graphics\Components\ParticleEmitter.cpp" />
+    <ClCompile Include="Runtime\Graphics\Components\RenderComp.cpp" />
+    <ClCompile Include="Runtime\Graphics\Components\SpringArm.cpp" />
+    <ClCompile Include="Runtime\Graphics\Debug\DebugShapes.cpp" />
+    <ClCompile Include="Runtime\Graphics\GraphicsManager.cpp" />
+    <ClCompile Include="Runtime\Graphics\GraphicsPipeline.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Camera.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Color.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\FogMachine.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Lighting.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Particle.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Shader.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\ShaderProgram.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Text.cpp" />
+    <ClCompile Include="Runtime\Graphics\Primitives\Texture.cpp" />
+    <ClCompile Include="Runtime\Graphics\Shapes\PrimitiveShapes.cpp" />
+    <ClCompile Include="Runtime\Graphics\Types\3DModel.cpp" />
+    <ClCompile Include="Runtime\Graphics\Types\FrameBuffer.cpp" />
+    <ClCompile Include="Runtime\Graphics\Types\PostProcess.cpp" />
+    <ClCompile Include="Runtime\Graphics\Types\Skybox.cpp" />
+    <ClCompile Include="Runtime\Memory\GarbageCollector\GarbageCollector.cpp" />
+    <ClCompile Include="Runtime\Memory\ObjectAllocator.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\Octree.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\SpacePartitioning.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\Collider.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\Collisions.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\CollisionSystem.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\ContactCollisions.cpp" />
+    <ClCompile Include="Runtime\Physics\Collision\Types\TriggerBox.cpp" />
+    <ClCompile Include="Runtime\Physics\RigidBody\PhysicsManager.cpp" />
+    <ClCompile Include="Runtime\Memory\Tracker\MemoryTracker.cpp" />
+    <ClCompile Include="Runtime\AI\Nodes\Sequencer.cpp" />
+    <ClCompile Include="Runtime\Physics\RigidBody\RigidBody.cpp" />
+    <ClCompile Include="Shared.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Shared.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">Shared.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Runtime\AI\BehaviorTree.cpp" />
+    <ClCompile Include="ThirdParty\GLEW\glew.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\GLM\detail\glm.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\ImCurveEdit.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\ImGradient.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\ImGuizmo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_tables.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imnodes.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\ImSequencer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">NotUsing</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Runtime\AI\Blackboard.h" />
+    <ClInclude Include="Developer\EngineBuild\DLLBuilder.h" />
+    <ClInclude Include="Developer\StringTable\EditorStringTable.h" />
+    <ClInclude Include="Developer\StringTable\EngineStringTable.h" />
+    <ClInclude Include="Editor\GUI\PrefabEditor.h" />
+    <ClInclude Include="Runtime\AI\Nodes\ChangeScene.h" />
+    <ClInclude Include="Developer\Console\Console.h" />
+    <ClInclude Include="Developer\Content\Private\Importers\CommonImporters.h" />
+    <ClInclude Include="Developer\Content\Public\SharedResources.h" />
+    <ClInclude Include="Developer\Debug\Assert.h" />
+    <ClInclude Include="Developer\Debug\Debug.h" />
+    <ClInclude Include="Developer\Factory\Factory.h" />
+    <ClInclude Include="Developer\Serialization\ColorSerializer.h" />
+    <ClInclude Include="Developer\Serialization\MathSerializer.h" />
+    <ClInclude Include="Developer\Serialization\Serializable.h" />
+    <ClInclude Include="Editor\Archetypes\Creator.h" />
+    <ClInclude Include="Editor\Archetypes\DrawingFunctions.h" />
+    <ClInclude Include="Editor\Archetypes\FileExplorer.h" />
+    <ClInclude Include="Editor\Archetypes\Gizmo.h" />
+    <ClInclude Include="Editor\Archetypes\IEditorState.h" />
+    <ClInclude Include="Editor\Archetypes\IWindow.h" />
+    <ClInclude Include="Editor\EditorManager.h" />
+    <ClInclude Include="Editor\GUI\ConsoleGUI.h" />
+    <ClInclude Include="Editor\GUI\ContentBrowser.h" />
+    <ClInclude Include="Editor\GUI\FPSProfiler.h" />
+    <ClInclude Include="Editor\GUI\ImporterWindowModal.h" />
+    <ClInclude Include="Editor\GUI\MemoryTrackerWindow.h" />
+    <ClInclude Include="Editor\GUI\PaletteWindow.h" />
+    <ClInclude Include="Editor\GUI\PropertiesGUI.h" />
+    <ClInclude Include="Editor\GUI\ResourceWindow.h" />
+    <ClInclude Include="Editor\GUI\Viewport.h" />
+    <ClInclude Include="Editor\States\MainState.h" />
+    <ClInclude Include="Runtime\AI\Nodes\RepeatNTimes.h" />
+    <ClInclude Include="Runtime\Audio\Audio.h" />
+    <ClInclude Include="Runtime\Audio\Components\AudioComponent.h" />
+    <ClInclude Include="Runtime\Audio\Components\SoundEmitter3D.h" />
+    <ClInclude Include="Runtime\Audio\Components\SoundListener3D.h" />
+    <ClInclude Include="Runtime\Audio\MasterAudio.h" />
+    <ClInclude Include="Runtime\Composition\Component.h" />
+    <ClInclude Include="Runtime\Composition\GameObject.h" />
+    <ClInclude Include="Runtime\Composition\IBase.h" />
+    <ClInclude Include="Runtime\Composition\Scene.h" />
+    <ClInclude Include="Runtime\Composition\World.h" />
+    <ClInclude Include="Runtime\Containers\Algorithm.h" />
+    <ClInclude Include="Runtime\Containers\Array.h" />
+    <ClInclude Include="Runtime\AI\Nodes\Composite.h" />
+    <ClInclude Include="Runtime\AI\Nodes\Decorator.h" />
+    <ClInclude Include="Runtime\AI\Nodes\Leaf.h" />
+    <ClInclude Include="Runtime\Core\Events\dispatcher.hpp" />
+    <ClInclude Include="Runtime\Core\Events\event.hpp" />
+    <ClInclude Include="Runtime\Core\Events\type_info.hpp" />
+    <ClInclude Include="Runtime\Core\FrameController\FrameController.h" />
+    <ClInclude Include="Runtime\Core\Input\InputManager.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Constants.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Conversions.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Geometry.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Interpolation.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\LookupTables\LookupTable.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Math.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Spline.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Transform.h" />
+    <ClInclude Include="Runtime\Core\Mathematics\Vector.h" />
+    <ClInclude Include="Runtime\Core\ObjectManager\ObjectManager.h" />
+    <ClInclude Include="Runtime\Core\Random\Random.hpp" />
+    <ClInclude Include="Runtime\Core\States\StateManager.h" />
+    <ClInclude Include="Runtime\Core\Thread\ThreadPool.h" />
+    <ClInclude Include="Runtime\Core\UI\UI.h" />
+    <ClInclude Include="Runtime\Core\UI\Widget.h" />
+    <ClInclude Include="Runtime\Core\Windows\FileSystem\FilePath.h" />
+    <ClInclude Include="Runtime\Core\Windows\Tests\Framework.h" />
+    <ClInclude Include="Runtime\Core\Windows\Tests\Tests.h" />
+    <ClInclude Include="Runtime\Core\Windows\Tests\UnitTests.h" />
+    <ClInclude Include="Runtime\Core\Windows\Window\Window.h" />
+    <ClInclude Include="Runtime\Graphics\Animation\StateMachines.h" />
+    <ClInclude Include="Runtime\Graphics\Components\Fog.h" />
+    <ClInclude Include="Runtime\Graphics\Components\MeshRenderer.h" />
+    <ClInclude Include="Runtime\Graphics\Components\ParticleEmitter.h" />
+    <ClInclude Include="Runtime\Graphics\Components\RenderComp.h" />
+    <ClInclude Include="Runtime\Graphics\Components\SpringArm.h" />
+    <ClInclude Include="Runtime\Graphics\Debug\DebugShapes.h" />
+    <ClInclude Include="Runtime\Graphics\GraphicsManager.h" />
+    <ClInclude Include="Runtime\Graphics\GraphicsPipeline.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Camera.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Color.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\FogMachine.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Lighting.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Particle.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Shader.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\ShaderProgram.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Text.h" />
+    <ClInclude Include="Runtime\Graphics\Primitives\Texture.h" />
+    <ClInclude Include="Runtime\Graphics\Shapes\PrimitiveShapes.h" />
+    <ClInclude Include="Runtime\Graphics\Types\3DModel.h" />
+    <ClInclude Include="Runtime\Graphics\Types\FrameBuffer.h" />
+    <ClInclude Include="Runtime\Graphics\Types\PostProcess.h" />
+    <ClInclude Include="Runtime\Graphics\Types\Skybox.h" />
+    <ClInclude Include="Runtime\Memory\Allocator.h" />
+    <ClInclude Include="Runtime\Memory\GarbageCollector\GarbageCollector.h" />
+    <ClInclude Include="Runtime\Memory\ObjectAllocator.h" />
+    <ClInclude Include="Runtime\Memory\PageAllocator.h" />
+    <ClInclude Include="Runtime\Physics\Collision\Octree.h" />
+    <ClInclude Include="Runtime\Physics\Collision\SpacePartitioning.h" />
+    <ClInclude Include="Runtime\Physics\Collision\Collider.h" />
+    <ClInclude Include="Runtime\Physics\Collision\Collisions.h" />
+    <ClInclude Include="Runtime\Physics\Collision\CollisionSystem.h" />
+    <ClInclude Include="Runtime\Physics\Collision\ContactCollisions.h" />
+    <ClInclude Include="Runtime\Physics\Collision\Types\TriggerBox.h" />
+    <ClInclude Include="Runtime\Physics\RigidBody\PhysicsManager.h" />
+    <ClInclude Include="Runtime\Memory\Pointers\UniquePointer.h" />
+    <ClInclude Include="Runtime\Memory\Tracker\CodeTracker.h" />
+    <ClInclude Include="Runtime\Memory\Tracker\MemoryTracker.h" />
+    <ClInclude Include="Runtime\Physics\RigidBody\RigidBody.h" />
+    <ClInclude Include="Runtime\RTTI\RTTI.h" />
+    <ClInclude Include="Runtime\Shared\CommonDefines.h" />
+    <ClInclude Include="Runtime\Shared\Runtime.h" />
+    <ClInclude Include="Runtime\Shared\Singleton.h" />
+    <ClInclude Include="Runtime\AI\Nodes\Sequencer.h" />
+    <ClInclude Include="Shared.h" />
+    <ClInclude Include="Runtime\AI\BehaviorTree.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod.hpp" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod_codec.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod_common.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod_dsp.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod_dsp_effects.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod_errors.h" />
+    <ClInclude Include="ThirdParty\FMOD\Public\fmod_output.h" />
+    <ClInclude Include="ThirdParty\GLEW\eglew.h" />
+    <ClInclude Include="ThirdParty\GLEW\glew.h" />
+    <ClInclude Include="ThirdParty\GLEW\glxew.h" />
+    <ClInclude Include="ThirdParty\GLEW\wglew.h" />
+    <ClInclude Include="ThirdParty\GLM\common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\compute_common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\compute_vector_relational.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\qualifier.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\setup.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_float.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_half.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat2x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat2x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat2x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat3x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat3x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat3x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat4x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat4x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_mat4x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_quat.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_vec1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_vec2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_vec3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\type_vec4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\_features.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\_fixes.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\_noise.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\_swizzle.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\_swizzle_func.hpp" />
+    <ClInclude Include="ThirdParty\GLM\detail\_vectorize.hpp" />
+    <ClInclude Include="ThirdParty\GLM\exponential.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_clip_space.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double2x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double2x2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double2x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double2x3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double2x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double2x4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double3x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double3x2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double3x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double3x3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double3x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double3x4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double4x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double4x2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double4x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double4x3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double4x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_double4x4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float2x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float2x2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float2x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float2x3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float2x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float2x4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float3x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float3x2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float3x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float3x3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float3x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float3x4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float4x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float4x2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float4x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float4x3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float4x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_float4x4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int2x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int2x2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int2x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int2x3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int2x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int2x4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int3x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int3x2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int3x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int3x3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int3x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int3x4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int4x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int4x2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int4x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int4x3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int4x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_int4x4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_projection.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_relational.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_transform.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint2x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint2x2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint2x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint2x3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint2x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint2x4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint3x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint3x2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint3x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint3x3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint3x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint3x4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint4x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint4x2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint4x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint4x3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint4x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\matrix_uint4x4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_double.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_double_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_exponential.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_float.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_float_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_geometric.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_relational.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_transform.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\quaternion_trigonometric.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_constants.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_int_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_packing.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_reciprocal.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_relational.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_uint_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\scalar_ulp.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool1_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_bool4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double1_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_double4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float1_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float2_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float3_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_float4_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int1_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_int4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_packing.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_reciprocal.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_relational.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint1_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint2_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint3_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_uint4_sized.hpp" />
+    <ClInclude Include="ThirdParty\GLM\ext\vector_ulp.hpp" />
+    <ClInclude Include="ThirdParty\GLM\fwd.hpp" />
+    <ClInclude Include="ThirdParty\GLM\geometric.hpp" />
+    <ClInclude Include="ThirdParty\GLM\glm.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\bitfield.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\color_space.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\constants.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\epsilon.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\matrix_access.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\matrix_integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\matrix_inverse.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\matrix_transform.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\noise.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\packing.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\quaternion.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\random.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\reciprocal.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\round.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\type_aligned.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\type_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\type_ptr.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\ulp.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtc\vec1.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\associated_min_max.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\bit.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\closest_point.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\color_encoding.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\color_space.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\color_space_YCoCg.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\common.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\compatibility.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\component_wise.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\dual_quaternion.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\easing.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\epsilon.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\euler_angles.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\extend.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\extended_min_max.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\exterior_product.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\fast_exponential.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\fast_square_root.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\fast_trigonometry.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\functions.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\gradient_paint.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\handed_coordinate_space.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\hash.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\intersect.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\io.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\log_base.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_cross_product.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_decompose.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_factorisation.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_interpolation.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_major_storage.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_operation.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_query.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\matrix_transform_2d.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\mixed_product.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\norm.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\normal.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\normalize_dot.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\number_precision.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\optimum_pow.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\orthonormalize.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\perpendicular.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\polar_coordinates.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\projection.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\quaternion.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\range.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\raw_data.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\rotate_normalized_axis.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\rotate_vector.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\scalar_multiplication.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\scalar_relational.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\spline.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\std_based_type.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\string_cast.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\texture.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\transform.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\transform2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\type_aligned.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\type_trait.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\vector_angle.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\vector_query.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\vec_swizzle.hpp" />
+    <ClInclude Include="ThirdParty\GLM\gtx\wrap.hpp" />
+    <ClInclude Include="ThirdParty\GLM\integer.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat2x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat2x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat2x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat3x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat3x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat3x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat4x2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat4x3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\mat4x4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\matrix.hpp" />
+    <ClInclude Include="ThirdParty\GLM\packing.hpp" />
+    <ClInclude Include="ThirdParty\GLM\simd\common.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\exponential.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\geometric.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\integer.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\matrix.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\neon.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\packing.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\platform.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\trigonometric.h" />
+    <ClInclude Include="ThirdParty\GLM\simd\vector_relational.h" />
+    <ClInclude Include="ThirdParty\GLM\trigonometric.hpp" />
+    <ClInclude Include="ThirdParty\GLM\vec2.hpp" />
+    <ClInclude Include="ThirdParty\GLM\vec3.hpp" />
+    <ClInclude Include="ThirdParty\GLM\vec4.hpp" />
+    <ClInclude Include="ThirdParty\GLM\vector_relational.hpp" />
+    <ClInclude Include="ThirdParty\ImGui\fa_solid_900.h" />
+    <ClInclude Include="ThirdParty\ImGui\font_awesome_5.h" />
+    <ClInclude Include="ThirdParty\ImGui\ImApp.h" />
+    <ClInclude Include="ThirdParty\ImGui\imconfig.h" />
+    <ClInclude Include="ThirdParty\ImGui\ImCurveEdit.h" />
+    <ClInclude Include="ThirdParty\ImGui\ImGradient.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui.h" />
+    <ClInclude Include="ThirdParty\ImGui\ImGuizmo.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_internal.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_notify.h" />
+    <ClInclude Include="ThirdParty\ImGui\imnodes.h" />
+    <ClInclude Include="ThirdParty\ImGui\ImSequencer.h" />
+    <ClInclude Include="ThirdParty\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ThirdParty\ImGui\imstb_textedit.h" />
+    <ClInclude Include="ThirdParty\ImGui\imstb_truetype.h" />
+    <ClInclude Include="ThirdParty\ImGui\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="ThirdParty\ImGui\tahoma.h" />
+    <ClInclude Include="ThirdParty\Json\include\adl_serializer.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\byte_container_with_subtype.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\conversions\from_json.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\conversions\to_json.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\exceptions.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\hash.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\input\binary_reader.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\input\input_adapters.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\input\json_sax.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\input\lexer.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\input\parser.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\input\position_t.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\json_pointer.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\json_ref.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\macro_scope.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\macro_unscope.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\meta\detected.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\meta\is_sax.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\meta\type_traits.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\meta\void_t.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\output\binary_writer.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\output\output_adapters.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\output\serializer.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\detail\value_t.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\json.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\json_fwd.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\ordered_map.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="ThirdParty\Json\include\thirdparty\hedley\hedley_undef.hpp" />
+    <ClInclude Include="ThirdParty\Json\single_include\json.hpp" />
+    <ClInclude Include="ThirdParty\STB\stb_image.h" />
+    <ClInclude Include="ThirdParty\STB\stb_image_write.h" />
+    <ClInclude Include="ThirdParty\STB\stb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp-vc140-mt.dll" />
+    <None Include="EngineContent\Models\Horatio\source\nelson-edit.mtl" />
+    <None Include="fmod64.dll" />
+    <None Include="Runtime\Physics\Collision\Octree.inl" />
+    <None Include="ThirdParty\GLM\detail\func_common.inl" />
+    <None Include="ThirdParty\GLM\detail\func_common_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_exponential.inl" />
+    <None Include="ThirdParty\GLM\detail\func_exponential_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_geometric.inl" />
+    <None Include="ThirdParty\GLM\detail\func_geometric_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_integer.inl" />
+    <None Include="ThirdParty\GLM\detail\func_integer_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_matrix.inl" />
+    <None Include="ThirdParty\GLM\detail\func_matrix_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_packing.inl" />
+    <None Include="ThirdParty\GLM\detail\func_packing_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_trigonometric.inl" />
+    <None Include="ThirdParty\GLM\detail\func_trigonometric_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\func_vector_relational.inl" />
+    <None Include="ThirdParty\GLM\detail\func_vector_relational_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\type_half.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat2x2.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat2x3.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat2x4.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat3x2.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat3x3.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat3x4.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat4x2.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat4x3.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat4x4.inl" />
+    <None Include="ThirdParty\GLM\detail\type_mat4x4_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\type_quat.inl" />
+    <None Include="ThirdParty\GLM\detail\type_quat_simd.inl" />
+    <None Include="ThirdParty\GLM\detail\type_vec1.inl" />
+    <None Include="ThirdParty\GLM\detail\type_vec2.inl" />
+    <None Include="ThirdParty\GLM\detail\type_vec3.inl" />
+    <None Include="ThirdParty\GLM\detail\type_vec4.inl" />
+    <None Include="ThirdParty\GLM\detail\type_vec4_simd.inl" />
+    <None Include="ThirdParty\GLM\ext\matrix_clip_space.inl" />
+    <None Include="ThirdParty\GLM\ext\matrix_common.inl" />
+    <None Include="ThirdParty\GLM\ext\matrix_integer.inl" />
+    <None Include="ThirdParty\GLM\ext\matrix_projection.inl" />
+    <None Include="ThirdParty\GLM\ext\matrix_relational.inl" />
+    <None Include="ThirdParty\GLM\ext\matrix_transform.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_common.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_common_simd.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_exponential.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_geometric.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_relational.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_transform.inl" />
+    <None Include="ThirdParty\GLM\ext\quaternion_trigonometric.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_common.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_constants.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_integer.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_packing.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_reciprocal.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_relational.inl" />
+    <None Include="ThirdParty\GLM\ext\scalar_ulp.inl" />
+    <None Include="ThirdParty\GLM\ext\vector_common.inl" />
+    <None Include="ThirdParty\GLM\ext\vector_integer.inl" />
+    <None Include="ThirdParty\GLM\ext\vector_packing.inl" />
+    <None Include="ThirdParty\GLM\ext\vector_reciprocal.inl" />
+    <None Include="ThirdParty\GLM\ext\vector_relational.inl" />
+    <None Include="ThirdParty\GLM\ext\vector_ulp.inl" />
+    <None Include="ThirdParty\GLM\gtc\bitfield.inl" />
+    <None Include="ThirdParty\GLM\gtc\color_space.inl" />
+    <None Include="ThirdParty\GLM\gtc\constants.inl" />
+    <None Include="ThirdParty\GLM\gtc\epsilon.inl" />
+    <None Include="ThirdParty\GLM\gtc\integer.inl" />
+    <None Include="ThirdParty\GLM\gtc\matrix_access.inl" />
+    <None Include="ThirdParty\GLM\gtc\matrix_inverse.inl" />
+    <None Include="ThirdParty\GLM\gtc\matrix_transform.inl" />
+    <None Include="ThirdParty\GLM\gtc\noise.inl" />
+    <None Include="ThirdParty\GLM\gtc\packing.inl" />
+    <None Include="ThirdParty\GLM\gtc\quaternion.inl" />
+    <None Include="ThirdParty\GLM\gtc\quaternion_simd.inl" />
+    <None Include="ThirdParty\GLM\gtc\random.inl" />
+    <None Include="ThirdParty\GLM\gtc\reciprocal.inl" />
+    <None Include="ThirdParty\GLM\gtc\round.inl" />
+    <None Include="ThirdParty\GLM\gtc\type_precision.inl" />
+    <None Include="ThirdParty\GLM\gtc\type_ptr.inl" />
+    <None Include="ThirdParty\GLM\gtc\ulp.inl" />
+    <None Include="ThirdParty\GLM\gtx\associated_min_max.inl" />
+    <None Include="ThirdParty\GLM\gtx\bit.inl" />
+    <None Include="ThirdParty\GLM\gtx\closest_point.inl" />
+    <None Include="ThirdParty\GLM\gtx\color_encoding.inl" />
+    <None Include="ThirdParty\GLM\gtx\color_space.inl" />
+    <None Include="ThirdParty\GLM\gtx\color_space_YCoCg.inl" />
+    <None Include="ThirdParty\GLM\gtx\common.inl" />
+    <None Include="ThirdParty\GLM\gtx\compatibility.inl" />
+    <None Include="ThirdParty\GLM\gtx\component_wise.inl" />
+    <None Include="ThirdParty\GLM\gtx\dual_quaternion.inl" />
+    <None Include="ThirdParty\GLM\gtx\easing.inl" />
+    <None Include="ThirdParty\GLM\gtx\euler_angles.inl" />
+    <None Include="ThirdParty\GLM\gtx\extend.inl" />
+    <None Include="ThirdParty\GLM\gtx\extended_min_max.inl" />
+    <None Include="ThirdParty\GLM\gtx\exterior_product.inl" />
+    <None Include="ThirdParty\GLM\gtx\fast_exponential.inl" />
+    <None Include="ThirdParty\GLM\gtx\fast_square_root.inl" />
+    <None Include="ThirdParty\GLM\gtx\fast_trigonometry.inl" />
+    <None Include="ThirdParty\GLM\gtx\float_notmalize.inl" />
+    <None Include="ThirdParty\GLM\gtx\functions.inl" />
+    <None Include="ThirdParty\GLM\gtx\gradient_paint.inl" />
+    <None Include="ThirdParty\GLM\gtx\handed_coordinate_space.inl" />
+    <None Include="ThirdParty\GLM\gtx\hash.inl" />
+    <None Include="ThirdParty\GLM\gtx\integer.inl" />
+    <None Include="ThirdParty\GLM\gtx\intersect.inl" />
+    <None Include="ThirdParty\GLM\gtx\io.inl" />
+    <None Include="ThirdParty\GLM\gtx\log_base.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_cross_product.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_decompose.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_factorisation.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_interpolation.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_major_storage.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_operation.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_query.inl" />
+    <None Include="ThirdParty\GLM\gtx\matrix_transform_2d.inl" />
+    <None Include="ThirdParty\GLM\gtx\mixed_product.inl" />
+    <None Include="ThirdParty\GLM\gtx\norm.inl" />
+    <None Include="ThirdParty\GLM\gtx\normal.inl" />
+    <None Include="ThirdParty\GLM\gtx\normalize_dot.inl" />
+    <None Include="ThirdParty\GLM\gtx\number_precision.inl" />
+    <None Include="ThirdParty\GLM\gtx\optimum_pow.inl" />
+    <None Include="ThirdParty\GLM\gtx\orthonormalize.inl" />
+    <None Include="ThirdParty\GLM\gtx\perpendicular.inl" />
+    <None Include="ThirdParty\GLM\gtx\polar_coordinates.inl" />
+    <None Include="ThirdParty\GLM\gtx\projection.inl" />
+    <None Include="ThirdParty\GLM\gtx\quaternion.inl" />
+    <None Include="ThirdParty\GLM\gtx\raw_data.inl" />
+    <None Include="ThirdParty\GLM\gtx\rotate_normalized_axis.inl" />
+    <None Include="ThirdParty\GLM\gtx\rotate_vector.inl" />
+    <None Include="ThirdParty\GLM\gtx\scalar_relational.inl" />
+    <None Include="ThirdParty\GLM\gtx\spline.inl" />
+    <None Include="ThirdParty\GLM\gtx\std_based_type.inl" />
+    <None Include="ThirdParty\GLM\gtx\string_cast.inl" />
+    <None Include="ThirdParty\GLM\gtx\texture.inl" />
+    <None Include="ThirdParty\GLM\gtx\transform.inl" />
+    <None Include="ThirdParty\GLM\gtx\transform2.inl" />
+    <None Include="ThirdParty\GLM\gtx\type_aligned.inl" />
+    <None Include="ThirdParty\GLM\gtx\type_trait.inl" />
+    <None Include="ThirdParty\GLM\gtx\vector_angle.inl" />
+    <None Include="ThirdParty\GLM\gtx\vector_query.inl" />
+    <None Include="ThirdParty\GLM\gtx\wrap.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EngineContent\Models\Horatio\source\nelson.png" />
+    <Image Include="EngineContent\Texture\Audio.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Bone.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Default.jpg">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Folder.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Level.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Play.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Source.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Space.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="EngineContent\Texture\Unknown.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="EngineContent\Fonts\Calamity-Regular.ttf">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
+    </Font>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Target Name="AfterBuild">
+    <Copy SourceFiles="$(ProjectDir)fmod64.dll" DestinationFolder="$(OutDir)" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="$(ProjectDir)assimp-vc140-mt.dll" DestinationFolder="$(OutDir)" SkipUnchangedFiles="false" />
+  </Target>
+</Project>

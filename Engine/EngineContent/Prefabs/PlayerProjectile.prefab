@@ -1,0 +1,50 @@
+{
+    "Childs": null,
+    "Components": {
+        "0": {
+            "Name": "Projectile",
+            "mDamage": 1,
+            "mLifetime": 80.0,
+            "mSpeed": 3.5
+        },
+        "1": {
+            "File": "EngineContent/Audio/Effects/PlayerShot.wav",
+            "Loop": false,
+            "Name": "Sound Emitter",
+            "Pitch": 1.0,
+            "Play On Spawn": true,
+            "Volume": 0.5
+        },
+        "2": {
+            "DiffusePath": "EngineContent/Texture\\SolidOrange.png",
+            "ModelName": "Extra/Bullet",
+            "ModelPath": "EngineContent/Models/Extra/Bullet.obj",
+            "Name": "3D Model",
+            "Visible": true,
+            "bloomIntensity": 0.0,
+            "hasBloom": false,
+            "hasShadow": false,
+            "mBlendingType": 0,
+            "mSamplingType": 0
+        }
+    },
+    "Name": "PlayerProjectileBullet",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 0.75,
+            "y": 0.75,
+            "z": 0.75
+        }
+    }
+}

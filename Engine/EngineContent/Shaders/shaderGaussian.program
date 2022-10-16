@@ -1,0 +1,4 @@
+{
+  "Fragment Shader": "GaussianShader.frag",
+  "Vertex Shader": "PostProcessing.vert"
+}

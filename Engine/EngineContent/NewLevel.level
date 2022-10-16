@@ -1,0 +1,2831 @@
+{
+    "0": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\WallTexPink.png",
+                "ModelName": "Rooms/RoomFloor",
+                "ModelPath": "EngineContent/Models/Rooms/RoomFloor.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 0.20000000298023224,
+                        "z": 1.0
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 1.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "Platform_1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -0.3190155029296875,
+                "y": 0.0,
+                "z": 4.260196685791016
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 77.80000305175781,
+                "y": 20.0,
+                "z": 90.4000015258789
+            }
+        }
+    },
+    "1": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 18.033966064453125,
+                "y": 6.289999961853027,
+                "z": 23.700590133666992
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "10": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -121.40239715576172,
+                "y": 6.161986827850342,
+                "z": -13.09958553314209
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "11": {
+        "Childs": {
+            "0": {
+                "Childs": {
+                    "0": {
+                        "Childs": null,
+                        "Components": {
+                            "0": {
+                                "DiffusePath": "EngineContent/Models\\Enemies\\TurretTexture.jpg",
+                                "ModelName": "Enemy/TurretHead",
+                                "ModelPath": "EngineContent/Models/Enemies/TurretHead.obj",
+                                "Name": "3D Model",
+                                "Visible": true,
+                                "bloomIntensity": 0.0,
+                                "hasBloom": false,
+                                "hasNormalMap": false,
+                                "hasShadow": false,
+                                "mSamplingType": 0
+                            }
+                        },
+                        "Name": "TurretHead",
+                        "Tags": null,
+                        "Transform": {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                "Components": null,
+                "Name": "TurretLink",
+                "Tags": null,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.44999998807907104,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            }
+        },
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::TurretMob"
+            },
+            "1": {
+                "DiffusePath": "EngineContent/Models\\Enemies\\TurretTexture.jpg",
+                "ModelName": "Enemy/TurretBase",
+                "ModelPath": "EngineContent/Models/Enemies/TurretBase.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "2": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 1000,
+                "mParticleColor": [
+                    0.22797907888889313,
+                    0.0,
+                    0.22797930240631104
+                ],
+                "mParticleGenerationRate": 10,
+                "mParticleSize": 0.20000000298023224,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 2.0,
+                "mUsingThreadPools": false
+            },
+            "3": {
+                "ColliderGroup": 4,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 2,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.10000000149011612,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 1.2000000476837158,
+                        "z": 0.699999988079071
+                    }
+                }
+            },
+            "4": {
+                "File": "EngineContent/Audio\\Effects\\EnemyDeath.wav",
+                "Loop": false,
+                "Name": "Sound Emitter",
+                "Pitch": 1.0,
+                "Play On Spawn": false,
+                "Volume": 0.800000011920929
+            }
+        },
+        "Name": "Turret_Z1_1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -0.6388874053955078,
+                "y": 4.550000190734863,
+                "z": 6.214510917663574
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 6.0,
+                "y": 6.0,
+                "z": 6.0
+            }
+        }
+    },
+    "12": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -122.45332336425781,
+                "y": 6.161986827850342,
+                "z": 18.869949340820313
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "13": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -17.78375816345215,
+                "y": 6.289999961853027,
+                "z": 26.063905715942383
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "14": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 18.112895965576172,
+                "y": 6.270488739013672,
+                "z": -16.387983322143555
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "15": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -19.729007720947266,
+                "y": 6.289999961853027,
+                "z": -13.441947937011719
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "16": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -17.945964813232422,
+                "y": 6.289999961853027,
+                "z": -15.72854232788086
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "17": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mID": 1,
+                "mSpawnCount": 1,
+                "mTimeFirstSpawn": 1.0,
+                "mTimetoSpawn": 6.0,
+                "mWaves": 4
+            },
+            "1": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 100,
+                "mParticleColor": [
+                    0.07100000232458115,
+                    0.03400000184774399,
+                    0.09799999743700027
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.4000000059604645,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 5.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "Spawner_Z1_3",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 8.452274322509766,
+                "y": 2.7091188430786133,
+                "z": 6.991256237030029
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "18": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\WallTexPink.png",
+                "ModelName": "Rooms/RoomFloor",
+                "ModelPath": "EngineContent/Models/Rooms/RoomFloor.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 0.20000000298023224,
+                        "z": 1.0
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 1.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "Platform_2",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -108.46641540527344,
+                "y": 0.0,
+                "z": 4.260196685791016
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 66.0,
+                "y": 20.0,
+                "z": 74.5
+            }
+        }
+    },
+    "19": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexBlue.png",
+                "ModelName": "Rooms/Bridge",
+                "ModelPath": "EngineContent/Models/Rooms/BridgePlatform.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            }
+        },
+        "Name": "Blue bridge",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -56.41037368774414,
+                "y": -0.21962988376617432,
+                "z": 5.113241195678711
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.10000000149011612
+            },
+            "Scale": {
+                "x": 47.099998474121094,
+                "y": 20.0,
+                "z": 16.600000381469727
+            }
+        }
+    },
+    "2": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Mesh Renderer",
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "isVisible": false,
+                "mBlendingType": 0,
+                "mSamplingType": 0,
+                "mat.amb": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mat.dif": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "mat.shiny": 15.0,
+                "mat.spe": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "meshIdx": 1,
+                "shaderIdx": 0,
+                "textureName": "EngineContent/Texture\\Zone2Tex.png",
+                "useAvg": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4000000059604645,
+                        "y": 1.5,
+                        "z": 1.899999976158142
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": true,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            },
+            "3": {
+                "Name": "Gameplay ::Door",
+                "mDisplacement": 15.0,
+                "mID": 1
+            },
+            "4": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\BarrierTex.png",
+                "ModelName": "Rooms/Barrier",
+                "ModelPath": "EngineContent/Models/Rooms/Barrier.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            }
+        },
+        "Name": "Barrier_Z1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -41.52014923095703,
+                "y": 8.86886215209961,
+                "z": 5.147538185119629
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 12.399999618530273,
+                "y": 12.399999618530273,
+                "z": 7.0
+            }
+        }
+    },
+    "20": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexBlue.png",
+                "ModelName": "Rooms/Bridge",
+                "ModelPath": "EngineContent/Models/Rooms/BridgePlatform.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            }
+        },
+        "Name": "Blue bridge",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 56.76295852661133,
+                "y": -0.21962988376617432,
+                "z": 5.113241195678711
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.10000000149011612
+            },
+            "Scale": {
+                "x": 50.0,
+                "y": 20.0,
+                "z": 16.600000381469727
+            }
+        }
+    },
+    "21": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 17.04960823059082,
+                "y": 6.270488739013672,
+                "z": 24.808671951293945
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "22": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -95.19775390625,
+                "y": 6.289999961853027,
+                "z": -11.93909740447998
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "23": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 17.218347549438477,
+                "y": 6.289999961853027,
+                "z": -17.496065139770508
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "24": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mID": 2,
+                "mSpawnCount": 3,
+                "mTimeFirstSpawn": 3.0,
+                "mTimetoSpawn": 20.0,
+                "mWaves": 8
+            },
+            "1": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 100,
+                "mParticleColor": [
+                    0.07100000232458115,
+                    0.03400000184774399,
+                    0.09799999743700027
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.4000000059604645,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 5.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "Spawner_Z2_2",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -110.28838348388672,
+                "y": 0.0,
+                "z": 36.677833557128906
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "25": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 16.107177734375,
+                "y": 6.289999961853027,
+                "z": 25.987184524536133
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "26": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mID": 2,
+                "mSpawnCount": 3,
+                "mTimeFirstSpawn": 8.0,
+                "mTimetoSpawn": 20.0,
+                "mWaves": 8
+            },
+            "1": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 100,
+                "mParticleColor": [
+                    0.07100000232458115,
+                    0.03400000184774399,
+                    0.09799999743700027
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.4000000059604645,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 5.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "Spawner_Z2_1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -112.4244155883789,
+                "y": 0.0,
+                "z": -24.482074737548828
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "27": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "1": {
+                "Name": "Gameplay ::Zone",
+                "mID": 2
+            }
+        },
+        "Name": "Zone2_Zone",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -112.00443267822266,
+                "y": 5.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 71.69999694824219,
+                "y": 5.0,
+                "z": 78.69999694824219
+            }
+        }
+    },
+    "28": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -97.48269653320313,
+                "y": 6.161988735198975,
+                "z": 19.464496612548828
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "29": {
+        "Childs": {
+            "0": {
+                "Childs": {
+                    "0": {
+                        "Childs": null,
+                        "Components": {
+                            "0": {
+                                "DiffusePath": "EngineContent/Models\\Enemies\\TurretTexture.jpg",
+                                "ModelName": "Enemy/TurretHead",
+                                "ModelPath": "EngineContent/Models/Enemies/TurretHead.obj",
+                                "Name": "3D Model",
+                                "Visible": true,
+                                "bloomIntensity": 0.0,
+                                "hasBloom": false,
+                                "hasNormalMap": false,
+                                "hasShadow": false,
+                                "mSamplingType": 0
+                            }
+                        },
+                        "Name": "TurretHead",
+                        "Tags": null,
+                        "Transform": {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                "Components": null,
+                "Name": "TurretLink",
+                "Tags": null,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.44999998807907104,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            }
+        },
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::TurretMob"
+            },
+            "1": {
+                "DiffusePath": "EngineContent/Models\\Enemies\\TurretTexture.jpg",
+                "ModelName": "Enemy/TurretBase",
+                "ModelPath": "EngineContent/Models/Enemies/TurretBase.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "2": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 1000,
+                "mParticleColor": [
+                    0.22797907888889313,
+                    0.0,
+                    0.22797930240631104
+                ],
+                "mParticleGenerationRate": 10,
+                "mParticleSize": 0.20000000298023224,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 2.0,
+                "mUsingThreadPools": false
+            },
+            "3": {
+                "ColliderGroup": 4,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 2,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.10000000149011612,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.5,
+                        "y": 1.2000000476837158,
+                        "z": 0.699999988079071
+                    }
+                }
+            },
+            "4": {
+                "File": "EngineContent/Audio\\Effects\\EnemyDeath.wav",
+                "Loop": false,
+                "Name": "Sound Emitter",
+                "Pitch": 1.0,
+                "Play On Spawn": false,
+                "Volume": 0.800000011920929
+            }
+        },
+        "Name": "Turret_Z2_1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -107.78632354736328,
+                "y": 4.550000190734863,
+                "z": 3.8843326568603516
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 6.0,
+                "y": 6.0,
+                "z": 6.0
+            }
+        }
+    },
+    "3": {
+        "Childs": {
+            "0": {
+                "Childs": {
+                    "0": {
+                        "Childs": null,
+                        "Components": {
+                            "0": {
+                                "Name": "Mesh Renderer",
+                                "bloomIntensity": 0.0,
+                                "hasBloom": false,
+                                "hasNormalMap": false,
+                                "hasShadow": false,
+                                "isVisible": true,
+                                "mBlendingType": 2,
+                                "mSamplingType": 0,
+                                "mat.amb": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "mat.dif": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "mat.shiny": 0.04972374439239502,
+                                "mat.spe": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "meshIdx": 0,
+                                "shaderIdx": 0,
+                                "textureName": "EngineContent/Texture\\PlayerShadow.png",
+                                "useAvg": 0
+                            }
+                        },
+                        "Name": "Shadow",
+                        "Tags": null,
+                        "Transform": {
+                            "Position": {
+                                "x": 0.0,
+                                "y": -1000.0,
+                                "z": -0.8999999761581421
+                            },
+                            "Rotation": {
+                                "x": -90.0,
+                                "y": -8.899999618530273,
+                                "z": 0.0
+                            },
+                            "Scale": {
+                                "x": 0.20000000298023224,
+                                "y": 0.4000000059604645,
+                                "z": 0.4000000059604645
+                            }
+                        }
+                    }
+                },
+                "Components": {
+                    "0": {
+                        "Name": "Gameplay::PlayerMeleeComp"
+                    },
+                    "1": {
+                        "Name": "TriggerBox"
+                    },
+                    "2": {
+                        "ColliderGroup": 1,
+                        "ColliderShape": 2,
+                        "Name": "Collider",
+                        "SelectedGroup": 0,
+                        "SelectedShape": 1,
+                        "Transform": {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Scale": {
+                                "x": 2.200000047683716,
+                                "y": 50.0,
+                                "z": 3.5
+                            }
+                        }
+                    },
+                    "3": {
+                        "Name": "Mesh Renderer",
+                        "bloomIntensity": 0.0,
+                        "hasBloom": false,
+                        "hasNormalMap": false,
+                        "hasShadow": false,
+                        "isVisible": true,
+                        "mBlendingType": 2,
+                        "mSamplingType": 0,
+                        "mat.amb": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "mat.dif": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "mat.shiny": 15.0,
+                        "mat.spe": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "meshIdx": 1,
+                        "shaderIdx": 0,
+                        "textureName": "EngineContent/Texture\\MeleeAttack.png",
+                        "useAvg": 0
+                    }
+                },
+                "Name": "Melee",
+                "Tags": null,
+                "Transform": {
+                    "Position": {
+                        "x": -0.6000000238418579,
+                        "y": -0.05000000074505806,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -90.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.2000000476837158,
+                        "y": 0.0010000000474974513,
+                        "z": 0.800000011920929
+                    }
+                }
+            },
+            "1": {
+                "Childs": null,
+                "Components": {
+                    "0": {
+                        "Name": "Gameplay::PlayerMeleeEnergy",
+                        "mDecreaseValue": 20.0,
+                        "mFirstRestoreTime": 0.0,
+                        "mRestoreTime": 0.0,
+                        "mRestoreValue": -431602080.0
+                    },
+                    "1": {
+                        "Name": "Mesh Renderer",
+                        "bloomIntensity": 0.0,
+                        "hasBloom": false,
+                        "hasNormalMap": false,
+                        "hasShadow": false,
+                        "isVisible": true,
+                        "mBlendingType": 0,
+                        "mSamplingType": 0,
+                        "mat.amb": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "mat.dif": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "mat.shiny": 15.0,
+                        "mat.spe": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "meshIdx": 1,
+                        "shaderIdx": 0,
+                        "textureName": "EngineContent/Texture\\SolidBlue.png",
+                        "useAvg": 0
+                    }
+                },
+                "Name": "PlayerEnergy",
+                "Tags": null,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": -0.699999988079071,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 90.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.100000023841858,
+                        "y": 0.05000000074505806,
+                        "z": 0.10000000149011612
+                    }
+                }
+            }
+        },
+        "Components": {
+            "0": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": -0.25,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4000000059604645,
+                        "y": 1.0,
+                        "z": 0.30000001192092896
+                    }
+                }
+            },
+            "1": {
+                "AddGravity": false,
+                "InverseMass": 1.0,
+                "Name": "RigidBody",
+                "Velx": -9.05092601897195e-05,
+                "Vely": 0.0,
+                "Velz": 0.0
+            },
+            "2": {
+                "Name": "Gameplay::Player",
+                "current_weapon_number": 0,
+                "mBaseSpeed": 9,
+                "mConsequentDashCount": 2,
+                "mControllerNumber": 0,
+                "mDashDuration": 0.30000001192092896,
+                "mDashSpeed": 40.0,
+                "mDashTotalCD": 0.800000011920929,
+                "mDebugMode": true,
+                "mMaxHP": 10,
+                "mRotSpeed": 2.0,
+                "mScore": 0
+            },
+            "3": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 382,
+                "mParticleColor": [
+                    0.7699999809265137,
+                    0.49446624517440796,
+                    0.2359257936477661
+                ],
+                "mParticleGenerationRate": 41,
+                "mParticleSize": 0.10000000149011612,
+                "mRange": 0.009999999776482582,
+                "mSpeedDirection": [
+                    1.0,
+                    0.0,
+                    2.2436111976276152e-05
+                ],
+                "mSpeedIntensity": 3.440000057220459,
+                "mUsingThreadPools": false
+            },
+            "4": {
+                "Enable Doppler Effect": true,
+                "Name": "3D Sound Listener"
+            },
+            "5": {
+                "DiffusePath": "EngineContent/Models\\Players\\P2Texture.jpg",
+                "ModelName": "Player/Player",
+                "ModelPath": "EngineContent/Models/Players/Player1.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            }
+        },
+        "Name": "Player",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 67.68000030517578,
+                "y": 5.698582172393799,
+                "z": 7.0
+            },
+            "Rotation": {
+                "x": 2.861051200397924e-07,
+                "y": 0.0,
+                "z": 2.861051484615018e-07
+            },
+            "Scale": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
+            }
+        }
+    },
+    "30": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Mesh Renderer",
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "isVisible": true,
+                "mBlendingType": 1,
+                "mSamplingType": 0,
+                "mat.amb": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mat.dif": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "mat.shiny": 15.0,
+                "mat.spe": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "meshIdx": 1,
+                "shaderIdx": 0,
+                "textureName": "EngineContent/Texture\\AimPoint.png",
+                "useAvg": 0
+            }
+        },
+        "Name": "AimTexture",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 51.67710876464844,
+                "y": 2.4000000953674316,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 1.0
+            }
+        }
+    },
+    "31": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -122.66167449951172,
+                "y": 6.161986827850342,
+                "z": -11.592883110046387
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "32": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                }
+            },
+            "1": {
+                "Name": "Gameplay ::Zone",
+                "mID": 1
+            }
+        },
+        "Name": "Zone1_Zone",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -0.31900787353515625,
+                "y": 5.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 78.0999984741211,
+                "y": 5.0,
+                "z": 110.0
+            }
+        }
+    },
+    "33": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mID": 2,
+                "mSpawnCount": 2,
+                "mTimeFirstSpawn": 1.0,
+                "mTimetoSpawn": 6.0,
+                "mWaves": 12
+            },
+            "1": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 100,
+                "mParticleColor": [
+                    0.07100000232458115,
+                    0.03400000184774399,
+                    0.09799999743700027
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.4000000059604645,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 5.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "Spawner_Z2_3",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -108.89439392089844,
+                "y": 2.7091188430786133,
+                "z": 4.424506187438965
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "34": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mID": 1,
+                "mSpawnCount": 2,
+                "mTimeFirstSpawn": 8.0,
+                "mTimetoSpawn": 15.0,
+                "mWaves": 2
+            },
+            "1": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 100,
+                "mParticleColor": [
+                    0.07100000232458115,
+                    0.03400000184774399,
+                    0.09799999743700027
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.4000000059604645,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 5.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "Spawner_Z1_2",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -7.937553405761719,
+                "y": 0.0,
+                "z": 45.47007751464844
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "35": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -18.485654830932617,
+                "y": 6.270488739013672,
+                "z": 24.885393142700195
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "36": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 18.81479263305664,
+                "y": 6.289999961853027,
+                "z": -15.20947265625
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "37": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Aspect": 1.7268385887145996,
+                "Far": 1000.0,
+                "FirstMouse": true,
+                "Fov": 80.0,
+                "MouseX": 1808.0,
+                "MouseY": 1047.0,
+                "Name": "Camera",
+                "Near": 0.10000000149011612,
+                "Pitch": -9.5,
+                "Position": {
+                    "x": 42.716529846191406,
+                    "y": 8.0,
+                    "z": 11.917691230773926
+                },
+                "Sensitivity": 3.0,
+                "UpVec": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "ViewVec": {
+                    "x": -0.926805317401886,
+                    "y": -0.16504760086536407,
+                    "z": -0.337329626083374
+                },
+                "Yaw": -160.0
+            },
+            "1": {
+                "Name": "Gameplay ::PlayerCam",
+                "mCamDist_X": 5.0,
+                "mCamDist_Z": -10.0,
+                "mCamHeight": 15.0,
+                "mPlayer1": true
+            }
+        },
+        "Name": "Camera",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 45.12344741821289,
+                "y": 14.820145606994629,
+                "z": -24.194841384887695
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": -159.39999389648438,
+                "z": -47.70000076293945
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "4": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -121.3022689819336,
+                "y": 6.161986827850342,
+                "z": 20.15713119506836
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "5": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -19.380205154418945,
+                "y": 6.289999961853027,
+                "z": 23.777311325073242
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "6": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -18.816953659057617,
+                "y": 6.270488739013672,
+                "z": -14.620460510253906
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "7": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -94.36782836914063,
+                "y": 6.289999961853027,
+                "z": -10.629190444946289
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "8": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "DiffusePath": "EngineContent/Models\\Rooms\\FloorTexGreen.png",
+                "ModelName": "Rooms/Pillar",
+                "ModelPath": "EngineContent/Models/Rooms/Pillar.obj",
+                "Name": "3D Model",
+                "Visible": true,
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasNormalMap": false,
+                "hasShadow": false,
+                "mSamplingType": 0
+            },
+            "1": {
+                "ColliderGroup": 1,
+                "ColliderShape": 2,
+                "Name": "Collider",
+                "SelectedGroup": 0,
+                "SelectedShape": 1,
+                "Transform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.1599999964237213,
+                        "y": 1.0,
+                        "z": 0.20000000298023224
+                    }
+                }
+            },
+            "2": {
+                "AddGravity": false,
+                "InverseMass": 0.0,
+                "Name": "RigidBody",
+                "Velx": 0.0,
+                "Vely": 0.0,
+                "Velz": 0.0
+            }
+        },
+        "Name": "DecoPillar",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": -96.35711669921875,
+                "y": 6.161986827850342,
+                "z": 18.5075740814209
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        }
+    },
+    "9": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Gameplay ::EnemySpawner",
+                "mID": 1,
+                "mSpawnCount": 2,
+                "mTimeFirstSpawn": 8.0,
+                "mTimetoSpawn": 15.0,
+                "mWaves": 2
+            },
+            "1": {
+                "Name": "ParticleEmitter",
+                "mActiveParticles": 0,
+                "mBlendingType": 2,
+                "mEmit": false,
+                "mMaxParticles": 100,
+                "mParticleColor": [
+                    0.07100000232458115,
+                    0.03400000184774399,
+                    0.09799999743700027
+                ],
+                "mParticleGenerationRate": 1,
+                "mParticleSize": 0.4000000059604645,
+                "mRange": 0.10000000149011612,
+                "mSpeedDirection": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "mSpeedIntensity": 5.0,
+                "mUsingThreadPools": false
+            }
+        },
+        "Name": "Spawner_Z1_1",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 0.550000011920929,
+                "y": 0.0,
+                "z": -34.84000015258789
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    }
+}

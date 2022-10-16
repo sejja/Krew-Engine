@@ -1,0 +1,4 @@
+{
+  "Fragment Shader": "shaderShadow.frag",
+  "Vertex Shader": "shaderShadow.vert"
+}

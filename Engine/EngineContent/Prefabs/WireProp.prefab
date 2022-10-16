@@ -1,0 +1,99 @@
+{
+    "Childs": null,
+    "Components": {
+        "0": {
+            "ColliderGroup": 1,
+            "ColliderShape": 2,
+            "Name": "Collider",
+            "SelectedGroup": 0,
+            "SelectedShape": 1,
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 2.0,
+                    "z": 1.0
+                }
+            }
+        },
+        "1": {
+            "DiffusePath": "EngineContent/Models\\Props\\Wires.jpg",
+            "ModelName": "Props/Wires",
+            "ModelPath": "EngineContent/Models/Props/Wires.obj",
+            "Name": "3D Model",
+            "Visible": true,
+            "bloomIntensity": 0.0,
+            "hasBloom": false,
+            "hasShadow": false,
+            "mSamplingType": 0
+        },
+        "2": {
+            "Name": "TriggerBox"
+        },
+        "3": {
+            "Name": "PropWires",
+            "mMaxTime": 0.25
+        },
+        "4": {
+            "Name": "ParticleEmitter",
+            "mActiveParticles": 0,
+            "mBlendingType": 2,
+            "mEmit": false,
+            "mMaxParticles": 1000,
+            "mParticleColor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mParticleGenerationRate": 3,
+            "mParticleSize": 0.20000000298023224,
+            "mRange": 0.11999999731779099,
+            "mSpeedDirection": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mSpeedIntensity": 2.0,
+            "mUsingThreadPools": false
+        },
+        "5": {
+            "Enable Doppler Effect": false,
+            "File": "EngineContent/Audio\\Effects\\Props\\WireTouch2.mp3",
+            "Loop": false,
+            "Maximum Distance": 10000.0,
+            "Minimum Distance": 1.0,
+            "Name": "3D Sound Emitter",
+            "Pitch": 1.0,
+            "Play On Spawn": false,
+            "Volume": 1.0
+        }
+    },
+    "Name": "WireProp",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": 120.61294555664063,
+            "y": 2.9411978721618652,
+            "z": 23.54641342163086
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 3.0,
+            "z": 1.0
+        }
+    }
+}

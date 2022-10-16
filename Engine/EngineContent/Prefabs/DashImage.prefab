@@ -1,0 +1,43 @@
+{
+    "Childs": null,
+    "Components": {
+        "0": {
+            "Name": "Gameplay ::DashImageComp",
+            "mAliveDuration": 0.699999988079071,
+            "mAlphaSubstractor": 0.10000000149011612,
+            "mMaximumAlpha": 0.6499999761581421,
+            "mMinimumAlpha": 0.0
+        },
+        "1": {
+            "DiffusePath": "EngineContent/Models\\Players\\P2Texture.jpg",
+            "ModelName": "Player/Player",
+            "ModelPath": "EngineContent/Models/Players/Player1.obj",
+            "Name": "3D Model",
+            "Visible": true,
+            "bloomIntensity": 0.0,
+            "hasBloom": false,
+            "hasShadow": false,
+            "mBlendingType": 2,
+            "mSamplingType": 0
+        }
+    },
+    "Name": "DashImage",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": -172.07542419433594,
+            "y": -38.22509765625,
+            "z": 10.836112976074219
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 3.0
+        }
+    }
+}

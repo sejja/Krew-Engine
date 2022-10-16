@@ -1,0 +1,140 @@
+{
+    "0": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "Mesh Renderer",
+                "bloomIntensity": 0.0,
+                "hasBloom": false,
+                "hasShadow": false,
+                "isVisible": true,
+                "mBlendingType": 0,
+                "mSamplingType": 0,
+                "mat.amb": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mat.dif": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "mat.shiny": 15.0,
+                "mat.spe": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "meshIdx": 0,
+                "shaderIdx": 0,
+                "textureName": "EngineContent/Texture\\StartScreen.jpg",
+                "useAvg": 0
+            }
+        },
+        "Name": "Plane",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.43155619502067566
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.7699999809265137,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "1": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Aspect": 1.7769999504089355,
+                "Far": 1000.0,
+                "FirstMouse": true,
+                "Fov": 45.0,
+                "MouseX": 1552.0,
+                "MouseY": 832.0,
+                "Name": "Camera",
+                "Near": 0.10000000149011612,
+                "Pitch": 0.0,
+                "Position": {
+                    "x": 0.00193864107131958,
+                    "y": 0.0,
+                    "z": 0.7488774061203003
+                },
+                "Sensitivity": 3.0,
+                "UpVec": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "ViewVec": {
+                    "x": -4.371138828673793e-08,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Yaw": -90.0
+            }
+        },
+        "Name": "Camera",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 0.00193864107131958,
+                "y": 0.0,
+                "z": 0.7488774061203003
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "2": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "PressStartToContinue",
+                "mDebugMode": false,
+                "mNextLevel": "EngineContent/PlayTestingLevel_v2.level",
+                "mTextMessage": "Press 'START' to begin",
+                "mTextPosX": -250.0,
+                "mTextPosY": -100.0,
+                "mTextPosZ": 1.0
+            }
+        },
+        "Name": "PressStart",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    }
+}

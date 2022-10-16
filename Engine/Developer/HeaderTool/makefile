@@ -1,0 +1,1 @@
+g++ -Wall CodeGen.cpp Lexer.cpp -std=c++2a -Ofast -finline-functions -funroll-loops -static-pie -fno-rtti -static-libgcc -static-libstdc++ -o HT.exe 

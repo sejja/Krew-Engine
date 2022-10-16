@@ -1,0 +1,57 @@
+{
+    "Childs": null,
+    "Components": {
+        "0": {
+            "Name": "ParticleEmitter",
+            "mActiveParticles": 60,
+            "mBlendingType": 2,
+            "mEmit": true,
+            "mMaxParticles": 1000,
+            "mParticleColor": [
+                0.5609999895095825,
+                0.08399999886751175,
+                0.7409999966621399
+            ],
+            "mParticleGenerationRate": 1,
+            "mParticleSize": 0.5,
+            "mRange": 0.10000000149011612,
+            "mSpeedDirection": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mSpeedIntensity": 2.0,
+            "mUsingThreadPools": false
+        },
+        "1": {
+            "Name": "Gameplay ::EnemyParticleEmitter"
+        },
+        "2": {
+            "AddGravity": false,
+            "InverseMass": 1.0,
+            "Name": "RigidBody",
+            "Velx": 0.0,
+            "Vely": 0.0,
+            "Velz": 0.0
+        }
+    },
+    "Name": "ZombieParticleEmitter",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    }
+}

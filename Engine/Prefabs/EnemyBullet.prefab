@@ -1,0 +1,68 @@
+{
+    "Childs": null,
+    "Components": {
+        "0": {
+            "Name": "Mesh Renderer",
+            "bloomIntensity": 0.0,
+            "hasBloom": false,
+            "hasNormalMap": false,
+            "hasShadow": false,
+            "isVisible": true,
+            "mBlendingType": 0,
+            "mSamplingType": 0,
+            "mat.amb": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mat.dif": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mat.shiny": 15.0,
+            "mat.spe": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "meshIdx": 4,
+            "shaderIdx": 0,
+            "textureName": "EngineContent/Models\\Extra\\TurretProjTex.png",
+            "useAvg": 0
+        },
+        "1": {
+            "Name": "EnemyProjectile",
+            "mDamage": 2.0,
+            "mLifetime": 80.0,
+            "mSpeed": 2.0
+        },
+        "2": {
+            "File": "EngineContent/Audio/Effects/TurretShot.wav",
+            "Loop": false,
+            "Name": "Sound Emitter",
+            "Pitch": 1.0,
+            "Play On Spawn": true,
+            "Volume": 0.800000011920929
+        }
+    },
+    "Name": "EnemyBullet",
+    "Tags": null,
+    "Transform": {
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    }
+}

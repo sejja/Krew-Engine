@@ -1,0 +1,88 @@
+{
+    "0": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Name": "PressStartToContinue",
+                "mDebugMode": false,
+                "mDelay": 3.0,
+                "mNextLevel": "EngineContent/StartScreen.level",
+                "mTextMessage": "Press \"START\" to retry, dead guy!",
+                "mTextPosX": -375.0,
+                "mTextPosY": -100.0,
+                "mTextPosZ": 1.0
+            }
+        },
+        "Name": "PressStart",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 1.9073486328125e-06,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    },
+    "1": {
+        "Childs": null,
+        "Components": {
+            "0": {
+                "Aspect": 1.760180950164795,
+                "Far": 1000.0,
+                "FirstMouse": true,
+                "Fov": 45.0,
+                "MouseX": 1556.0,
+                "MouseY": 884.0,
+                "Name": "Camera",
+                "Near": 0.10000000149011612,
+                "Pitch": 0.0,
+                "Position": {
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": 30.0
+                },
+                "Sensitivity": 3.0,
+                "UpVec": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "ViewVec": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "Yaw": -90.0
+            }
+        },
+        "Name": "Camera",
+        "Tags": null,
+        "Transform": {
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    }
+}

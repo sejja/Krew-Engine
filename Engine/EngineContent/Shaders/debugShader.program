@@ -1,0 +1,4 @@
+{
+  "Fragment Shader": "DebugShader.frag",
+  "Vertex Shader": "DebugShader.vert"
+}
