@@ -4,11 +4,7 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Project Preview
-#### Actor Steering
 <img src="images/Showcase1.jpg" width="900">
-
-
-#### Terrain Generation
 <img src="images/Showcase2.jpg" width="900">
   
 
