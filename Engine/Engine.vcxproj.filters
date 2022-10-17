@@ -695,7 +695,15 @@
     <Image Include="EngineContent\Texture\Source.png" />
     <Image Include="EngineContent\Texture\Space.png" />
     <Image Include="EngineContent\Texture\Unknown.png" />
-    <Image Include="EngineContent\Models\Horatio\source\nelson.png" />
+    <Image Include="EngineContent\Texture\AudioSource.png" />
+    <Image Include="EngineContent\Texture\ConePreview.png" />
+    <Image Include="EngineContent\Texture\CubePreview.png" />
+    <Image Include="EngineContent\Texture\CylinderPreview.png" />
+    <Image Include="EngineContent\Texture\DefaultTex.png" />
+    <Image Include="EngineContent\Texture\PlanePreview.png" />
+    <Image Include="EngineContent\Texture\Pause.png" />
+    <Image Include="EngineContent\Texture\Skip.png" />
+    <Image Include="EngineContent\Texture\SpherePreview.png" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="EngineContent\Fonts\Calamity-Regular.ttf" />
@@ -842,7 +850,6 @@
     <None Include="ThirdParty\GLM\gtx\wrap.inl" />
     <None Include="Runtime\Physics\Collision\Octree.inl" />
     <None Include="assimp-vc140-mt.dll" />
-    <None Include="EngineContent\Models\Horatio\source\nelson-edit.mtl" />
     <None Include="fmod64.dll" />
   </ItemGroup>
 </Project>

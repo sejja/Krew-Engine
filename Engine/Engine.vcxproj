@@ -1119,7 +1119,6 @@ xcopy "$(ProjectDir)EngineContent\" "$(SolutionDir)Build\$(Platform)\$(Configura
   </ItemGroup>
   <ItemGroup>
     <None Include="assimp-vc140-mt.dll" />
-    <None Include="EngineContent\Models\Horatio\source\nelson-edit.mtl" />
     <None Include="fmod64.dll" />
     <None Include="Runtime\Physics\Collision\Octree.inl" />
     <None Include="ThirdParty\GLM\detail\func_common.inl" />
@@ -1263,25 +1262,29 @@ xcopy "$(ProjectDir)EngineContent\" "$(SolutionDir)Build\$(Platform)\$(Configura
     <None Include="ThirdParty\GLM\gtx\wrap.inl" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="EngineContent\Models\Horatio\source\nelson.png" />
     <Image Include="EngineContent\Texture\Audio.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="EngineContent\Texture\AudioSource.png" />
     <Image Include="EngineContent\Texture\Bone.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="EngineContent\Texture\ConePreview.png" />
+    <Image Include="EngineContent\Texture\CubePreview.png" />
+    <Image Include="EngineContent\Texture\CylinderPreview.png" />
     <Image Include="EngineContent\Texture\Default.jpg">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="EngineContent\Texture\DefaultTex.png" />
     <Image Include="EngineContent\Texture\Folder.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
@@ -1294,12 +1297,15 @@ xcopy "$(ProjectDir)EngineContent\" "$(SolutionDir)Build\$(Platform)\$(Configura
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="EngineContent\Texture\Pause.png" />
+    <Image Include="EngineContent\Texture\PlanePreview.png" />
     <Image Include="EngineContent\Texture\Play.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="EngineContent\Texture\Skip.png" />
     <Image Include="EngineContent\Texture\Source.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
@@ -1312,6 +1318,7 @@ xcopy "$(ProjectDir)EngineContent\" "$(SolutionDir)Build\$(Platform)\$(Configura
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release - Game|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug - Game|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="EngineContent\Texture\SpherePreview.png" />
     <Image Include="EngineContent\Texture\Unknown.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
